@@ -26,7 +26,7 @@ export const ScoreCard = styled.div`
   align-items: center;
 `
 
-export const CardName = styled.p`
+export const CardName = styled.h1`
   font-weight: 500;
   color: #ffffff;
   font-family: 'Bree Serif';
@@ -34,12 +34,65 @@ export const CardName = styled.p`
   margin-bottom: 0px;
   font-size: 24px;
 `
-export const Score = styled(CardName)`
+export const Score = styled.p`
   color: #223a5f;
   font-size: 20px;
+  font-family: 'Bree Serif';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
 `
-export const ScoreNumber = styled(CardName)`
+export const ScoreNumber = styled(Score)`
   color: #223a5f;
   font-size: 36px;
   margin-top: 0px;
+  font-family: 'Roboto';
+`
+export const UnorderedList = styled.ul`
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+  top: 36%;
+`
+
+export const ResultDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 36%;
+  width: 90%;
+`
+export const YourResult = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+export const You = styled.p`
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+`
+export const ResultImage = styled.img`
+  height: 135px;
+`
+export const PlayAgain = styled.button`
+  background: #ffffff;
+  position: absolute;
+  top: 78%;
+  left: 31%;
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  border-radius: 6px;
+  font-weight: 700;
+`
+export const Result = styled(You)`
+  font-size: 24px;
+  position: absolute;
+  top: 67%;
+  left: 33%;
 `

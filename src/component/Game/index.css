@@ -32,12 +32,35 @@
 .modal > .close {
   cursor: pointer;
   position: absolute;
-  display: block;
-  padding: 2px 5px;
   line-height: 20px;
-  right: 4px;
-  top: 10px;
+  right: 5px;
+  top: 7px;
   font-size: 24px;
   background: #ffffff;
   border: 1px solid #cfcece;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: absolute;
+  top: 91%;
+  left: 71%;
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0px;
+  background: #ffffff;
+  color: #223a5f;
+  font-weight: 800;
+  font-family: 'Bree Serif';
+  cursor: pointer;
+  outline: none;
+}
+
+.cross-mark {
+  font: 24px;
 }
